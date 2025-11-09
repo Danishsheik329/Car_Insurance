@@ -1,31 +1,33 @@
 
 # Car Insurance-Dashboard
 ### 1.	Project Title / Headline
-Car Insurance Data Insights Dashboard
+Car Insurance Data Insights Dashboard<br>
 An interactive analytical dashboard that visualizes car insurance performance across multiple dimensions—focusing on claim trends, customer demographics, vehicle characteristics, and policy behavior to uncover data-driven insights for business decision-making.
 ### 2.	Short Description / Purpose
-1–2 sentences explaining what the dashboard does and why it exists.
-
-Example: 
-The Snowy Analytics Dashboard is a visually engaging and analytical Power BI report designed to help users explore and compare over 499 ski resorts across 38 countries and 5 continents. The dashboard focuses on highlighting major ski resort features like summer skiing availability, night skiing, lift types, and slope difficulty. This tool is intended for use by tourism analysts, winter sports enthusiasts, travel companies, and data-driven strategists who seek to understand trends and characteristics of ski resorts globally.
-
+The Car Insurance Dashboard is a Power BI report designed to help insurance analysts, business managers, and policy planners explore how various factors—such as customer education, age, marital status, and vehicle use—affect total claims and total policy counts.
+This tool enables better understanding of customer patterns, helps optimize policy pricing, and supports risk analysis.
 ### 3.	Tech Stack
 List the key technologies used to build the dashboard.
 
 Example:
 The dashboard was built using the following tools and technologies:<br>
-•	📊 Power BI Desktop – Main data visualization platform used for report creation.<br>
-•	📂 Power Query – Data transformation and cleaning layer for reshaping and preparing the data.<br>
-•	🧠 DAX (Data Analysis Expressions) – Used for calculated measures, dynamic visuals, and conditional logic.<br>
-•	📝 Data Modeling – Relationships established among tables (resorts, snow, and data_dictionary) to enable cross-filtering and aggregation.<br>
-•	📁 File Format – .pbix for development and .png for dashboard previews.
+•  Power BI Desktop – Used for building the interactive dashboard and visuals.
+•  SQL – Used for data retrieval, aggregation, and applying window and aggregate functions for calculated results.
+•  Microsoft Excel – Used for data cleaning, removing duplicates, handling missing values, and preparing structured datasets.
+•  Data Modeling – Relationships established between customer, vehicle, and policy tables for cross-filtering and KPI calculations.
+•  File Formats – .pbix for Power BI report, .csv for dataset storage, and .png for dashboard preview.
 
 ### 4.	Data Source
-More info on where the data comes from and how it’s structured
-Example:
-Source: Ski-resort-stats.com & NASA Earth Observations. 
+Source: Mock Car Insurance Dataset (manually curated & cleaned using MS Excel).
+The dataset contains policy details, claim amounts, and customer information such as:
+• Education level
+• Age group
+• Marital status
+• Vehicle make/company
+• Zone (Urban/Rural)
+• Car use type (Private/Commercial)
 
-Data on ~500 ski resorts around the world, including details on their location, prices, slopes, lifts, and seasons, as well as a complementary table with the snow cover around the world for each month of 2022.
+Claim amount and total policies.
 
 
 ### 5.	Features / Highlights
@@ -37,51 +39,69 @@ The best dashboard explanation format.
 
 Example:
 •	Business Problem
-The global ski tourism industry generates billions in revenue, yet travelers, tour operators, and analysts often lack an intuitive way to compare resorts across countries. 
-
-Key questions such as:
-Which regions offer the most family-friendly or expert-level skiing?
-Where is summer skiing available?
-What countries have the most well-equipped resorts?
-… are difficult to answer quickly with raw data.
+Insurance companies often struggle to analyze how customer demographics and vehicle features impact claim frequency and total claim amounts.
+Key questions include:
+Which education group files the most claims?
+Which car companies or use types lead to higher claim costs?
+How do age group and marital status affect claim patterns?
 
 •	Goal of the Dashboard
-To deliver an interactive visual tool that:
-Enables users to explore ski resorts globally.
-Supports decisions such as vacation planning, regional marketing, or infrastructure investment.
-Uncovers trends in terrain, accessibility, and tourism capacity by region and resort.
-
+To create an interactive Power BI tool that:
+Visualizes total claim amount and total policies by key dimensions.
+Helps management assess high-risk customer groups.
+Identifies trends in claim behavior and policy distribution.
+Supports pricing, marketing, and policy restructuring decisions.
 •	Walkthrough of Key Visuals
--	Key KPIs (Top Left)
-Total number of resorts: 499
-Resorts with summer skiing: 29
-Resorts with night skiing: 204
-Child-friendly resorts: 495
-Countries covered: 38
-Continents represented: 5
--	Continent Filter Panel
-An interactive slicer lets users filter all visuals by selected continents, such as Europe or Asia.
--	Top Countries with Most Resorts (Bar Chart)
-Bar chart ranks countries like Austria, France, and the U.S. by number of ski resorts.
--	Slopes by Resort (Line Chart)
-Displays the distribution of slope types (beginner, intermediate, expert, and total). Helps identify which resorts favor beginners vs. experts.
--	 Resorts by Skill Level (Dual Line Charts)
-Two line visuals side by side: one for resorts that cater to beginners, another for experts—allowing skill-level segmentation.
--	Elevation Stats (Grouped Bar Chart)
-Compare the highest and lowest elevation points of resorts to understand terrain steepness and potential snow quality.
--	Lift Types by Resort (Stacked Bar Chart)
-Stacked bar chart showing:
-Gondola lifts
-Chair lifts
-Surface lifts
-Total lifts
-This helps users gauge resort infrastructure and capacity.
+Key KPIs (Top Left)
+Total Claim Amount: $187.8M
+Total Policies: 37.5K
+Average Claim Frequency: 0.5
+Average Claim Amount: $5K
+Male & Female Policyholders: 18.7K / 18.8K
+
+Dynamic Measure Filter Panel
+A dynamic slicer enables users to toggle between Total Claim Amount and Total Policies, updating all visuals in real time.
+This helps compare customer behavior and financial outcomes across multiple business aspects.
+
+-Claim Amount & Total Policies by Car Use (Donut Chart)
+Shows both Claim Amount and Total Policies distribution across Private and Commercial car usage.
+Private cars hold the majority share in both policies and claims, indicating strong engagement from individual customers.
+
+-Claim Amount & Total Policies by Car Company (Bar Chart)
+Ranks top manufacturers such as Ford, Chevrolet, Toyota, Dodge, and GMC.
+Higher policies and claims for these brands indicate popularity and maintenance cost exposure.
+
+-Claim Amount & Total Policies by Coverage Zone (Donut Chart)
+Compares data across Urban, Highly Urban, Suburban, and Rural zones.
+Urban and highly urban areas lead in both policies and claims, aligning with higher population density and accident probability.
+
+-Claim Amount & Total Policies by Age Group (Bar Chart)
+Displays performance by customer age group (15–25, 26–35, 36–45, 46–55, 55+).
+Ages 35–65 record higher claims and policy counts — representing the most financially active and vehicle-owning demographic.
+
+-Claim Amount & Total Policies by Car Year (Line Chart)
+Tracks claim and policy trends across manufacturing years (1990–2020).
+Post-1990 models show steady increases in both policies and claim values, suggesting modern vehicles are more insured and costlier to repair.
+
+-Claim Amount & Total Policies by Kids Driving (Bar Chart)
+Highlights differences between adult and kid drivers.
+Adults dominate both total claims and policy numbers, while minors contribute minimally — likely due to licensing and legal limits.
+
+-Claim Amount & Total Policies by Education (Donut Chart)
+Breaks down education-wise distribution.
+Bachelors have the highest number of policies and total claims, followed by High School graduates — indicating higher insurance awareness among educated groups.
+
+-Claim Amount & Total Policies by Education & Marital Status (Matrix Table)
+Combines both dimensions for deeper segmentation.
+Married and single individuals with Bachelor or High School education levels show strong engagement in both claims and policy ownership.
 
 •	Business Impact & Insights
-Marketing Optimization: Travel agencies can use this dashboard to identify key selling points for different demographics (e.g., child-friendly resorts or expert terrain).
-Strategic Expansion: Resort developers can spot underdeveloped regions with high potential.
-Vacation Planning: Tourists can plan trips based on slope availability, elevation, and terrain difficulty.
-Regional Analysis: Governments and tourism bodies can analyze competitiveness by region.
+Customer Segmentation: Bachelors and high school graduates hold the largest share in total policies and claims.
+Vehicle Insights: Ford and Chevrolet contribute the highest claim amounts, signaling higher repair or risk costs.
+Zone Analysis: Urban zones show higher claim frequency, suggesting concentrated policyholders and higher vehicle usage.
+Age Factor: Customers aged 35–55 file more claims, indicating this group’s greater exposure to vehicle use.
+Business Optimization: Helps the company design targeted premium structures and improve risk management strategies.
+Financial Trend: Claim amounts have shown steady growth post-1990, reflecting market expansion and policy diversification
 
 ### 6.	Screenshots / Demos
 Show what the dashboard looks like. - ![Alt text](https://github.com/username/repo/assets/image.png)
