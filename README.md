@@ -37,21 +37,22 @@ The best dashboard explanation format.
 •	Walk through of key visuals (briefly!)
 •	Business impact & Insights
 
-Example:
-•	Business Problem
+Example:<br>
+•	Business Problem<br>
 Insurance companies often struggle to analyze how customer demographics and vehicle features impact claim frequency and total claim amounts.
 Key questions include:
 Which education group files the most claims?
 Which car companies or use types lead to higher claim costs?
 How do age group and marital status affect claim patterns?
 
-•	Goal of the Dashboard
+•	Goal of the Dashboard<br>
 To create an interactive Power BI tool that:
 Visualizes total claim amount and total policies by key dimensions.
 Helps management assess high-risk customer groups.
 Identifies trends in claim behavior and policy distribution.
 Supports pricing, marketing, and policy restructuring decisions.
-•	Walkthrough of Key Visuals
+
+•	Walkthrough of Key Visuals<br>
 Key KPIs (Top Left)
 Total Claim Amount: $187.8M
 Total Policies: 37.5K
@@ -59,7 +60,7 @@ Average Claim Frequency: 0.5
 Average Claim Amount: $5K
 Male & Female Policyholders: 18.7K / 18.8K
 
-Dynamic Measure Filter Panel
+-Dynamic Measure Filter Panel
 A dynamic slicer enables users to toggle between Total Claim Amount and Total Policies, updating all visuals in real time.
 This helps compare customer behavior and financial outcomes across multiple business aspects.
 
@@ -95,7 +96,7 @@ Bachelors have the highest number of policies and total claims, followed by High
 Combines both dimensions for deeper segmentation.
 Married and single individuals with Bachelor or High School education levels show strong engagement in both claims and policy ownership.
 
-•	Business Impact & Insights
+•	Business Impact & Insights<br>
 Customer Segmentation: Bachelors and high school graduates hold the largest share in total policies and claims.
 Vehicle Insights: Ford and Chevrolet contribute the highest claim amounts, signaling higher repair or risk costs.
 Zone Analysis: Urban zones show higher claim frequency, suggesting concentrated policyholders and higher vehicle usage.
