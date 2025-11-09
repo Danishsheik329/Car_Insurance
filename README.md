@@ -105,5 +105,4 @@ Business Optimization: Helps the company design targeted premium structures and 
 Financial Trend: Claim amounts have shown steady growth post-1990, reflecting market expansion and policy diversification
 
 ### 6.	Screenshots / Demos
-Show what the dashboard looks like. - ![Alt text](https://github.com/Danishsheik329/Car_Insurance/blob/main/Screenshot%202025-11-09%20152013.png)
-Example: ![Dashboard Preview](https://github.com/Danishsheik329/Car_Insurance/blob/main/Screenshot%202025-11-09%20152013.png)
+Dashboard Looks like this: ![Dashboard Preview](https://github.com/Danishsheik329/Car_Insurance/blob/main/Screenshot%202025-11-09%20152013.png)
