@@ -46,12 +46,12 @@ Identifies trends in claim behavior and policy distribution.
 Supports pricing, marketing, and policy restructuring decisions.
 
 •	Walkthrough of Key Visuals<br>
-Key KPIs (Top Left)
-Total Claim Amount: $187.8M
-Total Policies: 37.5K
-Average Claim Frequency: 0.5
-Average Claim Amount: $5K
-Male & Female Policyholders: 18.7K / 18.8K
+Key KPIs <br>
+Total Claim Amount: $187.8M<br>
+Total Policies: 37.5K<br>
+Average Claim Frequency: 0.5<br>
+Average Claim Amount: $5K<br>
+Male & Female Policyholders: 18.7K / 18.8K<br>
 
 -Dynamic Measure Filter Panel
 A dynamic slicer enables users to toggle between Total Claim Amount and Total Policies, updating all visuals in real time.
@@ -90,12 +90,12 @@ Combines both dimensions for deeper segmentation.
 Married and single individuals with Bachelor or High School education levels show strong engagement in both claims and policy ownership.
 
 •	Business Impact & Insights<br>
-Customer Segmentation: Bachelors and high school graduates hold the largest share in total policies and claims.
-Vehicle Insights: Ford and Chevrolet contribute the highest claim amounts, signaling higher repair or risk costs.
-Zone Analysis: Urban zones show higher claim frequency, suggesting concentrated policyholders and higher vehicle usage.
-Age Factor: Customers aged 35–55 file more claims, indicating this group’s greater exposure to vehicle use.
-Business Optimization: Helps the company design targeted premium structures and improve risk management strategies.
-Financial Trend: Claim amounts have shown steady growth post-1990, reflecting market expansion and policy diversification
+Customer Segmentation: Bachelors and high school graduates hold the largest share in total policies and claims.<br>
+Vehicle Insights: Ford and Chevrolet contribute the highest claim amounts, signaling higher repair or risk costs.<br>
+Zone Analysis: Urban zones show higher claim frequency, suggesting concentrated policyholders and higher vehicle usage.<br>
+Age Factor: Customers aged 35–55 file more claims, indicating this group’s greater exposure to vehicle use.<br>
+Business Optimization: Helps the company design targeted premium structures and improve risk management strategies.<br>
+Financial Trend: Claim amounts have shown steady growth post-1990, reflecting market expansion and policy diversification.<br>
 
 ### 6.	Screenshots / Demos
 Dashboard Looks like this: ![Dashboard Preview](https://github.com/Danishsheik329/Car_Insurance/blob/main/Screenshot%202025-11-09%20152013.png)
