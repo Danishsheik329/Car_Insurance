@@ -33,10 +33,10 @@ Claim amount and total policies.
 ### 5.	Features / Highlights
 •	Business Problem<br>
 Insurance companies often struggle to analyze how customer demographics and vehicle features impact claim frequency and total claim amounts.
-Key questions include:
-Which education group files the most claims?
-Which car companies or use types lead to higher claim costs?
-How do age group and marital status affect claim patterns?
+Key questions include:<br>
+Which education group files the most claims?<br>
+Which car companies or use types lead to higher claim costs?<br>
+How do age group and marital status affect claim patterns?<br>
 
 •	Goal of the Dashboard<br>
 To create an interactive Power BI tool that:
