@@ -31,13 +31,6 @@ Claim amount and total policies.
 
 
 ### 5.	Features / Highlights
-The best dashboard explanation format. 
-•	Business problem
-•	Goal of the dashboard
-•	Walk through of key visuals (briefly!)
-•	Business impact & Insights
-
-Example:<br>
 •	Business Problem<br>
 Insurance companies often struggle to analyze how customer demographics and vehicle features impact claim frequency and total claim amounts.
 Key questions include:
